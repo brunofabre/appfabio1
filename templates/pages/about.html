@@ -10,8 +10,9 @@
             <div class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <h2>Page About</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deserunt dicta expedita illum! Amet animi aperiam, assumenda blanditiis distinctio dolores ducimus eum id iste molestiae nemo optio, quas quia voluptate.</p>
+                        {% if perms.games %}
+                            permitido
+                        {% endif %}
                     </div>
                 </div>
             </div>

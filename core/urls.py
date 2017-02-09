@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^ranking/$', views.ranking, name='ranking'),
     url(r'^historico/$', views.history, name='history'),
     url(r'^time/$', views.team, name='team'),
+    url(r'^painel/$', views.panelhome, name='panelhome'),
 ]
